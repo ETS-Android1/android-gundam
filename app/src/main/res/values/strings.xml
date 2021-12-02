@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RG Gundam Project</string>
+    <string name="about">About</string>
+    <string name="author_name">Arif Budi Setiawan</string>
+    <string name="author_email">arifbsetiawan97@gmail.com</string>
+    <string name="name">Name</string>
+    <string name="price">Price</string>
+    <string name="scale">Scale</string>
+    <string name="release">Release</string>
+    <string name="code">Code</string>
+    <string name="release_tag">Release</string>
+    <string name="code_tag">Code</string>
+    <string name="scale_tag">Scale</string>
+    <string name="price_tag">Price</string>
+    <string name="price_detail">Price</string>
+    <string name="release_date_detail">Release Date</string>
+    <string name="scale_detail">Scale</string>
+    <string name="product_code_detail">Product Code</string>
+    <string name="wishlist_detail">Wishlist</string>
+    <string name="beli_detail">Beli</string>
+</resources>

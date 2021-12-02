@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/nameDetail"
+            style="@style/Detail.Title"/>
+
+        <TextView
+            android:id="@+id/detailDetail"
+            style="@style/Detail.Desc"/>
+
+        <TableLayout
+            style="@style/Detail.Table">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/Detail.Tag"
+                    android:text="@string/price_detail"/>
+
+                <TextView
+                    style="@style/Detail.Dot"/>
+
+                <TextView
+                    android:id="@+id/priceDetail"
+                    style="@style/Detail.Value"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/Detail.Tag"
+                    android:text="@string/release_date_detail"/>
+
+                <TextView
+                    style="@style/Detail.Dot"/>
+
+                <TextView
+                    android:id="@+id/releaseDetail"
+                    style="@style/Detail.Value"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/Detail.Tag"
+                    android:text="@string/scale_detail"/>
+
+                <TextView
+                    style="@style/Detail.Dot"/>
+
+                <TextView
+                    android:id="@+id/scaleDetail"
+                    style="@style/Detail.Value"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/Detail.Tag"
+                    android:text="@string/product_code_detail"/>
+
+                <TextView
+                    style="@style/Detail.Dot"/>
+
+                <TextView
+                    android:id="@+id/codeDetail"
+                    style="@style/Detail.Value"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_wishlist"
+                style="@style/Button.Wishlist"
+                android:text="@string/wishlist_detail"/>
+
+            <Button
+                android:id="@+id/btn_beli"
+                style="@style/Button.Buy"
+                android:text="@string/beli_detail"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
