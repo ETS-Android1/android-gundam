@@ -1,3 +1,3 @@
-#Android RG Gundam
+# Android RG Gundam
 
 This is my first android application :)
